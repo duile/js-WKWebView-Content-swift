@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+            <meta http-equiv="Content-Type" content="text/html;charset=uft-8"/>
+            <meta name="description" content="">
+            <meta name="viewport"content="width=device-width;initial-scale=1.0">
+          
+		<script type="text/javascript" src="main.js">
+		</script>
+        
+	</head>
+	<body>
+		<p>高<input id="gao" type="text" disabled="true"/></p>
+		
+		<p>宽<input id="kuan" type="text" disabled="true"/></p>
+		
+		<p>摄像头</p><form><select name="leixing">
+							<option value="前置">前置</option>
+							<option value="后置">后置</option>
+						  </select> 
+					</form> 
+		<p>图片来源</p><form><select name="laiyuan">
+							<option value="相机">相机</option>
+							<option value="相册">相册</option>
+							<option value="全部">全部</option>
+						  </select> 
+					</form>
+		<br />
+		<br />
+		<button id="btn" onclick="buttonClick()" style="background: blue;color: white;">相机</button>
+		<br />
+		<img id="image" height="100" width="100"/>
+        
+        <script type="text/javascript">
+            
+        
+<!--            function log (a,b,c) {-->
+<!--                -->
+<!--                var heigth = document.getElementById("gao");-->
+<!--                heigth.value = a;-->
+<!--                -->
+<!--                var widht = document.getElementById("kuan");-->
+<!--                widht.value = b;-->
+<!--                -->
+<!--                var imag = document.getElementById("image");-->
+<!--                imag.src = c;-->
+<!--            }-->
+        
+        </script>
+
+	</body>
+</html>
